@@ -1,0 +1,84 @@
+﻿console.log pour afficher un élément
+
+
+
+
+var titre =  document.getElementById
+console.log(titre)
+
+var titre =  document.getElementsByTagName('h1')
+
+undefined
+
+console.log(titre)
+
+
+console.log(titre[0])
+
+<h1 id=​"title" class=​"titre">​…​</h1>
+​
+undefined
+
+
+console.log(titre[0].innerHTML)
+
+accesseur = .
+
+trouver h1 pour modifier l'intérieur
+
+titre[0].innerHTML = "changement de paradigme dans le html"
+
+titre[0].innerHTML = "<a href='http://lepoles.org'>levilainmechantpoles</a>"
+
+_____________________
+
+titre[0].innerHTML = "<a></a>"
+
+var lien = document.getElementsByTagName("a")
+console.log(lien)
+
+lien[0].innerHTML = "go"
+lien[0].href = "http"
+lien[0].target = "_blank"
+
+"<a href=" + lien+ "></a>
+
+modulo permet d'éviter une liste de renvoi d'info pour mettre une conversation en place entre les "photos"
+index%2 index modulo 2 (2 char) ==0
+
+
+
+
+
+/*var contexte
+document.getElementById
+var paroles = data.perso_0.texte;/
+
+}else if( index == 5){
+
+var tabImg = data.perso_1;
+var images = 
+document.getElementById('character_02').getsElementsByTagName('img');
+images[0.src = tabImg.picture02[index%2];
+
+---------------
+document.body.style.backgroundImage = "url('img_tree.png')";
+----------------
+
+bouton 1
+div qui ressemble a un bonbon styliser la div et qui ressemble a un gateau après clic
+
+personnage.profil.avatar.age
+personnage.equipement[1].casque
+
+var personnage = {
+	profil : {
+	comportement : function(){
+	  avatar : {
+	     age: '18';
+             couleur : 'orange',
+             nom : 'Conan'
+}
+	caracteristiques : {
+	  taille : '1,80 m'
+

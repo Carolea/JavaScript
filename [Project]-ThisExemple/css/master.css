@@ -1,0 +1,12 @@
+.bonbon{
+  background-image: url('http://scrapcoloring.fr/images/bonbon.png');
+  width:250px;
+  height:250px;
+  background-size: cover;
+
+}
+.void{
+  width:250px;
+  height:250px;
+  background-color: black;
+}
