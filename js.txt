@@ -57,7 +57,7 @@ var paroles = data.perso_0.texte;/
 }else if( index == 5){
 
 var tabImg = data.perso_1;
-var images = 
+var images =
 document.getElementById('character_02').getsElementsByTagName('img');
 images[0.src = tabImg.picture02[index%2];
 
@@ -82,3 +82,39 @@ var personnage = {
 	caracteristiques : {
 	  taille : '1,80 m'
 
+alert('hello world'); test page js
+
+---------------
+var megaman = document.getElementById('megaman')
+
+console.log(megaman)
+---
+// changer l'objet className
+var megaman = document.getElementById('megaman').getElementsByTagName('div')
+[0]
+
+console.log(megaman.className)
+---
+
+// changer l'objet className
+var megaman = document.getElementById('megaman').getElementsByTagName('div')
+[0]
+
+// on utilise l'eventlistener.
+megaman.addEventListener("click", function(){ alert("Hello World!"); });
+
+console.log(megaman.className)
+---
+
+// on définit la fonction jump
+function jump(){
+  console.log(megaman)
+}
+----
+function jump(){
+  console.log([megaman])
+  megaman.className = "jump"
+
+  setTimeout( function(){
+    megaman.className = 'run'
+  }, 300)
